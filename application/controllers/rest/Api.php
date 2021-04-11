@@ -72,7 +72,7 @@ class Api extends RestController {
                 'message' => 'Usuário inserido com sucesso'
             ], 200); //200 OK
         } else {
-            $this->response([
+            $this->response([nse([
                 'status' => false,
                 'error' => 'Falha ao inserir usuário'
             ], 400); //400 bad request
